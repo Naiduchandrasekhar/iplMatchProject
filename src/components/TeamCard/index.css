@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.iplTeamLogos {
+  height: 80px;
+  margin-right: 12px;
+}
+
+.teamsCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  height: 120px;
+  width: 450px;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .teamsCardContainer {
+    width: 300px;
+  }
+}
+
+.teamName {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+
+.linkClass {
+  text-decoration: none;
+}

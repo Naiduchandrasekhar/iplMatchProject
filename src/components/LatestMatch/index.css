@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.secondCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 35px;
+  border-radius: 12px;
+  color: #ffffffff;
+  font-family: 'Bree Serif';
+  height: 400px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .secondCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    margin: 5px;
+  }
+}
+
+.competingTeam {
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.competingTeamImageContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .competingTeamImageContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid gray;
+  }
+  .secondCard {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .competingTeam {
+    height: 80px;
+  }
+  .competingTeamTxt {
+    font-size: 20px;
+  }
+  .dateTxt {
+    font-size: 20px;
+  }
+}
